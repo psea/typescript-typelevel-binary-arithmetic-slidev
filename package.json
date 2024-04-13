@@ -1,0 +1,17 @@
+{
+  "name": "typescript-typelevel-binary-arithmethics-slidev",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.48.8",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "slidev-theme-academic": "^1.3.0",
+    "vue": "^3.4.21"
+  }
+}
