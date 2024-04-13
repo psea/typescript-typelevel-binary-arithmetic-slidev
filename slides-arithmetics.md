@@ -6,7 +6,10 @@
 
 ## Binary arithmetics with logic gates
 
-<div><img src="bin-add.png" class="h-40" /></div>
+<div class="flex gap-4">
+  <div><img src="bits-add.png" class="h-32" /></div>
+  <div v-click><img src="bin-add.png" class="h-32" /></div>
+</div>
 
 <div class="flex">
   <div v-click class="absolute bg-black"><img src="bin-add-step-0.png" class="h-40" /></div>

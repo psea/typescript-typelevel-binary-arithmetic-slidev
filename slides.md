@@ -25,9 +25,44 @@ transition: slide-left
 mdc: true
 ---
 
-# TypeScript type-level programming
+# The Unreasonable Effectiveness of TypeScript
 
-Type level arithmetics
+## TypeScript type-level programming
+
+Running example: Type-level arithmetics
+
+---
+
+## Setting expectations
+
+<v-clicks>
+
+- Practicality: 0%
+- Time waste: 100%
+
+</v-clicks>
+
+<pre class="mt-8">
+<span v-click>1. Learn something? "Yes"</span>
+<span v-click>2. Is this something useful? "No"</span>
+<span v-click>——————————————————————————————————
+∴  Conclusion: Learn something useless.
+</span>
+</pre>
+
+<p v-click>If we learn something useless does it count as learning?</p>
+
+<p v-click>Is it fun?</p>
+
+<p v-click>Why? Because we can!</p>
+
+---
+
+### Topics to cover
+
+- **What** - What is Type-Level Programming?
+- **How** - How is it done?
+- **Why** - Why TypeScript has it?
 
 ---
 
@@ -38,7 +73,10 @@ layoutClass: gap-16
 
 # Table of contents
 
-<img v-click src="/ts-cute.jpg" class="p-4 rounded shadow" />
+<v-click>
+  <img src="/ts-cute.jpg" class="p-4 rounded shadow" />
+  <p>To hide the lack of real content I'll try to cover it with random unrelated memes 🤦️</p> 
+</v-click>
 
 ::right::
 
@@ -89,4 +127,10 @@ src: ./slides-arithmetics.md
 
 ```yaml
 src: ./slides-mergesort.md
+```
+
+---
+
+```yaml
+src: ./slides-why.md
 ```
