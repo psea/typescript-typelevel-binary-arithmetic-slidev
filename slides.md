@@ -63,6 +63,11 @@ I'm not an expert.
 
 ---
 
+```yaml
+layout: two-cols
+layoutClass: gap-16
+```
+
 ## Setting ambitions
 
 Topics to cover
@@ -70,6 +75,13 @@ Topics to cover
 - **What** - What is Type-Level Programming?
 - **How** - How is it done?
 - **Why** - Why TypeScript has it?
+
+::right::
+
+<div class="relative">
+<img src="/happy-dark.jpg" />
+<span class="text-xl absolute bottom-0 bg-black bg-opacity-80">It is ambitious. But hope it will be a breeze.</span> 
+</div>
 
 ---
 
@@ -80,10 +92,8 @@ layoutClass: gap-16
 
 Table of contents
 
-<v-click>
-  <img src="/ts-cute.jpg" class="p-4 rounded shadow" />
-  <p>To hide the lack of real content I'll try to cover it with random unrelated memes 🤦️</p> 
-</v-click>
+<img src="/ts-cute.jpg" class="p-4 rounded shadow" />
+<p>I'll try to hide the lack of real content with random, unrelated memes 🤦️</p>
 
 ::right::
 

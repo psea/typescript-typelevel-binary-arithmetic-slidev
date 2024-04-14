@@ -38,11 +38,12 @@ TypeScript _is not (meant to be)_
 
 ## <span class="opacity-20">~~JavaScript~~</span> + Type System = Type-level TypeScript
 
-**TypeLang** - the language of types.
-
 </v-click>
 
-<v-click>
+<div v-click class="flex gap-4">
+<div>
+
+**TypeLang** - the language of types.
 
 **TypeLang** is an immutable, pure, lazy, functional programming language.
 
@@ -51,7 +52,14 @@ TypeScript _is not (meant to be)_
 - immutable - we can not re-assign types once they already declared
 - lazy - types are evaluated as needed. Opposed to JS eager evaluation.
 
-</v-click>
+</div>
+
+<div class="relative min-w-[50%]">
+  <img src="/can-not-hide.jpg" class="w-96" />
+  <span class="absolute bottom-0 bg-black bg-opacity-80">Microsoft shipping full-blown programming language in type system, hoping no one notice.</span>
+</div>
+
+</div>
 
 ---
 

@@ -93,10 +93,9 @@ type Merge<Xs extends BinaryNumber[], Ys extends BinaryNumber[]> = Xs extends []
 
 ::right::
 
-## [Haskell
+## Haskell
 
 ```haskell
-
 merge xs [] = xs
 merge [] ys = ys
 merge (x:xs) (y:ys) =

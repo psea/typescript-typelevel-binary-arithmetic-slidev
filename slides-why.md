@@ -1,4 +1,6 @@
-# Why TypeScript has it?
+# Why TypeScript has such an advanced type system?
+
+<img src="/big-toy.jpg" class="w-80" />
 
 ---
 
@@ -27,9 +29,17 @@ layoutClass: gap-8
 
 <p>New. Fun. Different. Fascinated. Flexible. Weird. Refreshing. Cool. Awkward. Easy-going. </p>
 <p>Well suited to put some scripts on a web page</p>
-<p class="text-xl">And... very hard to write large scale applications</p>
+<p class="text-2xl font-bold">And... very hard to write large scale applications</p>
 
 </v-click>
+
+---
+
+# JavaScript is the only language of the web
+
+<img src="/demon-js.jpg" class="rounded shadow h-96" />
+
+## Transpilers try to take the place of JS
 
 ---
 
@@ -64,6 +74,10 @@ TypeScript _is_ **JavaScript**.
 
 > TypeScript is **JavaScript** with syntax for types. (ref https://www.typescriptlang.org/)
 
+<div class="flex gap-4">
+
+<div>
+
 <v-click>
 
 TypeScript is designed to
@@ -80,9 +94,18 @@ TypeScript _is not (meant to be)_
 
 - a new language
 - a compiler
-- a JavaScript replacer
+- a **JavaScript** replacer
 
 </v-click>
+
+</div>
+
+<div v-click class="relative min-w-[40%]">
+  <img src="/old-micky.jpg" class="w-96" />
+  <span class="absolute bottom-0 bg-black bg-opacity-60">It is still the same old JavaScript. Ok, maybe not the same anymore.</span>
+</div>
+
+</div>
 
 ---
 
@@ -139,6 +162,11 @@ Sometimes when trying to expand in one direction you will contract in others.
 
 ---
 
+```yaml
+layout: two-cols
+layoutClass: gap-8
+```
+
 # Is it all roses?
 
 ### It is great and unique
@@ -147,10 +175,25 @@ Sometimes when trying to expand in one direction you will contract in others.
 - Literal types
 - Conditional types
 - Recursive generics
+- etc
 
-<v-click>
+::right::
 
-### Also complicated!
+<div>
+<img src="/smoking-party.jpg" />
+<span>Type theory fans having their moment </span>
+</div>
+
+---
+
+```yaml
+layout: two-cols
+layoutClass: gap-8
+```
+
+# Is it all roses?
+
+### It is also complicated!
 
 Are TypeScript types having it’s C++ moment? It becomes unwieldy complicated and unmanageable?
 
@@ -160,7 +203,12 @@ Why they developed such a complex type system?
 - It reflects the flexibility of JS.
 - The problem TS is trying to solve - how to statically type a dynamically typed language with a great variety of usage patterns!
 
-</v-click>
+::right::
+
+<div>
+<img src="/ninja-turtle.jpg" />
+<span>Developer trying to understand type error</span>
+</div>
 
 ---
 
@@ -241,13 +289,26 @@ Advice
 
 ---
 
+```yaml
+layout: two-cols
+layoutClass: gap-8
+```
+
 # It can be fragile
 
-### `any` keyword, type predicates, assertions, function overloads are **all lies**.
+## All these are **fake guaranties**:
 
-The carefully constructed type having my back while I code.
+- `any` keyword
+- type predicates
+- assertions
+- function overloads
 
-<img src="/fragile.png" class="h-80"/>
+::right::
+
+<div class="relative">
+<img src="/fake-dog-hands.jpg" class="w-64"/>
+<span class="absolute bottom-0 bg-black bg-opacity-80 text-xl">Me, trying to make types for my beautiful JS code</span>
+</div>
 
 ---
 
@@ -269,3 +330,5 @@ layoutClass: gap-8
 ---
 
 # Let the types be with you
+
+<img src="/dark-man.jpg" class="h-80"/>

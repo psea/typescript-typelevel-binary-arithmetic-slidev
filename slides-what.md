@@ -116,3 +116,5 @@ type MergeSort<Xs extends Array<BinaryNumber>> = Xs["length"] extends 1 | 0
 
 declare function sortStr<A extends readonly string[]>(xs: A): SortNumberStr<A>;
 ```
+
+<img v-click src="/cat-flying.jpg" class="absolute top-[15%] right-0 h-96"/>
