@@ -92,6 +92,12 @@ Table of contents
 ---
 
 ```yaml
+src: ./slides-what.md
+```
+
+---
+
+```yaml
 src: ./slides-how.md
 ```
 

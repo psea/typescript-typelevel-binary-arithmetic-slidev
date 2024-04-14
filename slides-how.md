@@ -1,4 +1,4 @@
-# **How** - How is it done?
+# How is it done?
 
 ---
 
