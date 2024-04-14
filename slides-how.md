@@ -59,7 +59,7 @@ TypeScript _is not (meant to be)_
 
 ### Things the language can make use of
 
-<img src="values-vs-types.png"/>
+<img src="/values-vs-types.png" />
 
 ---
 
@@ -67,7 +67,7 @@ TypeScript _is not (meant to be)_
 
 ### A set of available operations defines what we can do with values[]
 
-<img src="operations-vs-type-constructors.png"/>
+<img src="/operations-vs-type-constructors.png"/>
 
 On value-level there are values and operations which operate on those values - take values as parameters and return values.  
 On type-level there are types and type constructors which operate on those types - take types as parameters and return types.  
@@ -77,14 +77,14 @@ Operations on types are different from the ones we have in JS. We only have type
 
 ## **TypeLang** Control structures
 
-<img src="control-structures.png"/>
+<img src="/control-structures.png"/>
 
 ---
 
 ## Value-level (**JavaScript**) _vs_ Type-level (**TypeLang**)
 
-<img src="value-level-type-level.png" class="h-52" />
-<img src="spiderman-value-type.jpg" class="h-52" />
+<img src="/value-level-type-level.png" class="h-52" />
+<img src="/spiderman-value-type.jpg" class="h-52" />
 
 ---
 

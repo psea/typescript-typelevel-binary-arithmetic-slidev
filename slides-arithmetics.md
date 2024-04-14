@@ -1,22 +1,22 @@
 # Type level binary arithmetics
 
-<img src="party.png" class="h-58" />
+<img src="/party.png" class="h-58" />
 
 ---
 
 ## Binary arithmetics with logic gates
 
 <div class="flex gap-4">
-  <div><img src="bits-add.png" class="h-32" /></div>
-  <div v-click><img src="bin-add.png" class="h-32" /></div>
+  <div><img src="/bits-add.png" class="h-32" /></div>
+  <div v-click><img src="/bin-add.png" class="h-32" /></div>
 </div>
 
 <div class="flex">
-  <div v-click class="absolute bg-black"><img src="bin-add-step-0.png" class="h-40" /></div>
-  <div v-click class="absolute bg-black"><img src="bin-add-step-1.png" class="h-40" /></div>
-  <div v-click class="absolute bg-black"><img src="bin-add-step-2.png" class="h-40" /></div>
-  <div v-click class="absolute bg-black"><img src="bin-add-step-3.png" class="h-40" /></div>
-  <div v-click class="absolute bg-black"><img src="bin-add-step-4.png" class="h-40" /></div>
+  <div v-click class="absolute bg-black"><img src="/bin-add-step-0.png" class="h-40" /></div>
+  <div v-click class="absolute bg-black"><img src="/bin-add-step-1.png" class="h-40" /></div>
+  <div v-click class="absolute bg-black"><img src="/bin-add-step-2.png" class="h-40" /></div>
+  <div v-click class="absolute bg-black"><img src="/bin-add-step-3.png" class="h-40" /></div>
+  <div v-click class="absolute bg-black"><img src="/bin-add-step-4.png" class="h-40" /></div>
 </div>
 
 ---
@@ -28,9 +28,9 @@ layout: two-cols
 ## Half adder
 
 <div class="flex flex-col gap-4">
-  <div><img src="half-adder-table.png" class="h-32" /></div>
-  <div><img src="half-adder-gates.png" class="h-32"/></div>
-  <div><img src="half-adder.png" class="h-32"/></div>
+  <div><img src="/half-adder-table.png" class="h-32" /></div>
+  <div><img src="/half-adder-gates.png" class="h-32"/></div>
+  <div><img src="/half-adder.png" class="h-32"/></div>
 </div>
 
 ::right::
@@ -63,8 +63,8 @@ layoutClass: gap-8
 ## Full adder
 
 <div class="flex flex-col gap-8">
-  <div><img src="full-adder-gates.png" class="h-32"/></div>
-  <div><img src="full-adder.png" class="h-32"/></div>
+  <div><img src="/full-adder-gates.png" class="h-32"/></div>
+  <div><img src="/full-adder.png" class="h-32"/></div>
 </div>
 
 ::right::
@@ -90,8 +90,8 @@ layoutClass: gap-8
 ## 4-bit adder
 
 <div class="flex flex-col gap-8">
-  <div><img src="4-bit-adder-gates.png" class="h-48"/></div>
-  <div><img src="4-bit-adder.png" class="h-48"/></div>
+  <div><img src="/4-bit-adder-gates.png" class="h-48"/></div>
+  <div><img src="/4-bit-adder.png" class="h-48"/></div>
 </div>
 
 ::right::
