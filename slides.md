@@ -43,22 +43,29 @@ Running example: Type-level arithmetics
 </v-clicks>
 
 <pre class="mt-8">
-<span v-click>1. Learn something? "Yes"</span>
+<span v-click>1. Will learn something new? "Yes"</span>
 <span v-click>2. Is this something useful? "No"</span>
-<span v-click>——————————————————————————————————
-∴  Conclusion: Learn something useless.
+<span v-click>———————————————————————————————————————————————
+∴  Conclusion: We will learn something useless.
+<span class="italic">If we learn something useless does it count as learning?</span>
 </span>
 </pre>
 
-<p v-click>If we learn something useless does it count as learning?</p>
+<div v-click>
+<p>Is it fun? "For some"</p>
+<p>Why? "Because we can!"</p>
+</div>
 
-<p v-click>Is it fun?</p>
-
-<p v-click>Why? Because we can!</p>
+<p v-click class="absolute bottom-0 italic">
+Disclaimer: You can ask me anything about TypeScript but don't expect an answer.
+I'm not an expert.
+</p>
 
 ---
 
-### Topics to cover
+## Setting ambitions
+
+Topics to cover
 
 - **What** - What is Type-Level Programming?
 - **How** - How is it done?
@@ -71,7 +78,7 @@ layout: two-cols
 layoutClass: gap-16
 ```
 
-# Table of contents
+Table of contents
 
 <v-click>
   <img src="/ts-cute.jpg" class="p-4 rounded shadow" />
@@ -81,35 +88,6 @@ layoutClass: gap-16
 ::right::
 
 <Toc minDepth="1" maxDepth="2"></Toc>
-
----
-
-## What is Javascript
-
-- Scheme + Self + C + Java = JavaScript
-
-<img v-click src="/lonely-cloun.png" class="p-4 rounded shadow" />
-
----
-
-```yaml
-layout: two-cols
-layoutClass: gap-16
-```
-
-## TypeScript
-
-Scheme + Self <span class="opacity-20">+ C + Java</span> = JavaScript
-
-Two very dymanic languages. Both are are very flexible and permissive. So as the offspring JS. Good luck with putting type over it.
-
-JavaScript + Types
-
-<img v-click src="/brendan.png" class="rounded shadow" />
-
-::right::
-
-<img v-click src="/anders.jpg" class="rounded shadow" />
 
 ---
 

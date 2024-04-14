@@ -2,19 +2,49 @@
 
 ---
 
-# Types as a functional programming language
+## TypeScript = **JavaScript** + Types
 
-### TypeScript = JavaScript + Types
+TypeScript _is_ **JavaScript**.
 
-It _is_ JavaScript, just with added Types.
-And Types is a language also. Two for the price of one!
+> TypeScript is **JavaScript** with syntax for types. (ref https://www.typescriptlang.org/)
 
 <v-click>
 
-### Type Level Type Script = ~~JavaScript~~ + Types
+TypeScript is designed to
+
+- type-check **JavaScript** programs
+- provide better language tooling for **JavaScript** programs
+- ensure correctness of **JavaScript** programs
+
+</v-click>
+
+<v-click>
+
+TypeScript _is not (meant to be)_
+
+- a new language
+- a compiler
+- a JavaScript replacer
+
+</v-click>
+
+---
+
+# Types as a functional programming language
+
+## JavaScript + Type System = TypeScript
+
+<v-click>
+
+## <span class="opacity-20">~~JavaScript~~</span> + Type System = Type-level TypeScript
 
 **TypeLang** - the language of types.
-**TypeLang** is a immutable, pure, lazy, functional programming language.
+
+</v-click>
+
+<v-click>
+
+**TypeLang** is an immutable, pure, lazy, functional programming language.
 
 - functional - functions all we have, recursion is our friend (no higher order functions though)
 - pure - no input/output
@@ -25,17 +55,17 @@ And Types is a language also. Two for the price of one!
 
 ---
 
-## Values
+## **TypeLang** Values
 
-### The things the language can make use of
+### Things the language can make use of
 
 <img src="values-vs-types.png"/>
 
 ---
 
-## Operations
+## **TypeLang** Operations
 
-### The set of available operations defines what we can do with values[]
+### A set of available operations defines what we can do with values[]
 
 <img src="operations-vs-type-constructors.png"/>
 
@@ -45,13 +75,13 @@ Operations on types are different from the ones we have in JS. We only have type
 
 ---
 
-## Control structures
+## **TypeLang** Control structures
 
 <img src="control-structures.png"/>
 
 ---
 
-## Value-level _vs_ Type-level
+## Value-level (**JavaScript**) _vs_ Type-level (**TypeLang**)
 
 <img src="value-level-type-level.png" class="h-52" />
 <img src="spiderman-value-type.jpg" class="h-52" />
