@@ -114,6 +114,14 @@ src: ./slides-how.md
 ---
 
 ```yaml
+# src: ./slides-typelang.md
+```
+
+👉️ skip details
+
+---
+
+```yaml
 src: ./slides-arithmetics.md
 ```
 
