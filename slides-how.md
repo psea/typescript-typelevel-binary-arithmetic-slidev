@@ -26,6 +26,8 @@ TypeScript _is not (meant to be)_
 - a compiler
 - a JavaScript replacer
 
+> TypeScript becomes JavaScript via the delete key. (ref https://www.typescriptlang.org/)
+
 </v-click>
 
 ---

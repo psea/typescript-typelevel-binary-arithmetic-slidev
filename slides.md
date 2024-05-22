@@ -29,20 +29,21 @@ mdc: true
 
 ## TypeScript type-level programming
 
-Running example: Type-level arithmetics
+### Running example: Type-level arithmetics
 
 ---
 
-## Setting expectations
+# Setting expectations
 
 <v-clicks>
 
-- Practicality: 0%
-- Time waste: 100%
+## - Practicality: 0%
+
+## - Time waste: 100%
 
 </v-clicks>
 
-<pre class="mt-8">
+<pre class="mt-8 text-xl">
 <span v-click>1. Will learn something new? "Yes"</span>
 <span v-click>2. Is this something useful? "No"</span>
 <span v-click>———————————————————————————————————————————————
@@ -52,13 +53,13 @@ Running example: Type-level arithmetics
 </pre>
 
 <div v-click>
-<p>Is it fun? "For some"</p>
-<p>Why? "Because we can!"</p>
+  <p>Is it fun? For some.</p>
+  <p>Why? Because we can! 💪️</p>
 </div>
 
 <p v-click class="absolute bottom-0 italic">
-Disclaimer: You can ask me anything about TypeScript but don't expect an answer.
-I'm not an expert.
+  Disclaimer: You can ask me anything about TypeScript but don't expect an answer.
+  I'm not an expert.
 </p>
 
 ---
@@ -68,7 +69,7 @@ layout: two-cols
 layoutClass: gap-16
 ```
 
-## Setting ambitions
+# Setting ambitions
 
 Topics to cover
 

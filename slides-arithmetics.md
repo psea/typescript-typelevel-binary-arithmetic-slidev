@@ -4,7 +4,7 @@
 
 ---
 
-## Binary arithmetics with logic gates
+## Binary arithmetics
 
 <div class="flex gap-4">
   <div><img src="/bits-add.png" class="h-32" /></div>
@@ -25,9 +25,11 @@
 layout: two-cols
 ```
 
+## Binary arithmetics with gates
+
 ## Half adder
 
-<div class="flex flex-col gap-4">
+<div class="flex flex-col gap-2">
   <div><img src="/half-adder-table.png" class="h-32" /></div>
   <div><img src="/half-adder-gates.png" class="h-32"/></div>
   <div><img src="/half-adder.png" class="h-32"/></div>
